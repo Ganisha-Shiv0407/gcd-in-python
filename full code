@@ -1,0 +1,9 @@
+import math
+
+# For two numbers
+result = math.gcd(48, 60)
+print(result)  # Output: 12
+
+# Python 3.9+ supports multiple arguments natively
+result_multiple = math.gcd(48, 64, 80)
+print(result_multiple)  # Output: 16
